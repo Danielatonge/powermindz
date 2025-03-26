@@ -14,7 +14,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image $TASK_TAG...
-      - docker build -t $TASK_TAG -f conf/$CONFIG_DIR/Dockerfile .
+      - docker build -t $TASK_TAG -f conf/$SERVICE_ENV/Dockerfile .
       - echo Tagging image for Amazon ECR $AWS_REGION...
       - aws ecr get-login-password --region ${AWS_REGION} | docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com
       - echo Tagging $ECR_VERSION_URI
