@@ -42,19 +42,21 @@ body:has(.modal-overlay--open) {
 }
 
 .hide-ss {
-    @include bp(mobile) {
-        display: none;
+    display: block !important;
+
+    @include bp(small) {
+        display: none !important;
     }
 
     @include bp(tablet) {
-        display: none;
+        display: none !important;
     }
 }
 
 .hide-bs-tab {
     display: none !important;
 
-    @include bp(mobile) {
+    @include bp(small) {
         display: block !important;
     }
 }
@@ -62,7 +64,7 @@ body:has(.modal-overlay--open) {
 .hide-bs {
     display: none !important;
 
-    @include bp(mobile) {
+    @include bp(small) {
         display: block !important;
     }
 
@@ -76,7 +78,7 @@ body:has(.modal-overlay--open) {
 }
 
 .hide-ss-only {
-    @include bp(mobile) {
+    @include bp(small) {
         display: none !important;
     }
 }

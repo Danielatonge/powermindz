@@ -4,7 +4,7 @@
     height: 75px;
     background-size: contain;
 
-    @include bp(mobile) {
+    @include bp(small) {
         display: inline-block;
         width: 170px;
         height: 65px;
@@ -16,7 +16,7 @@
         width: 170px;
         height: 65px;
 
-        @include bp(mobile) {
+        @include bp(small) {
             width: 120px;
             height: 45px;
         }
@@ -30,7 +30,7 @@
     background-size: contain;
     display: inline-block;
 
-    @include bp(mobile) {
+    @include bp(small) {
         width: 60px;
         height: 72px;
         // background: url('~/assets/images/footer-logo.svg') no-repeat center;

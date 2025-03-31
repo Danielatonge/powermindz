@@ -47,16 +47,18 @@
           </div>
         </div>
 
-        <div class="hero__image hide-bs" style="margin: 0 auto;">
-          <figure>
-            <img src="~/assets/images/powermindz-hero-mobile.png" alt="Hero Image" />
-          </figure>
-        </div>
         <div class="hero__image hide-ss">
           <figure>
             <img src="~/assets/images/powermindz-hero-desktop.png" alt="Hero Image" />
           </figure>
         </div>
+        <div class="hero__image hide-bs">
+          <figure>
+            <img src="~/assets/images/powermindz-hero-mobile.png" alt="Hero Image" />
+          </figure>
+        </div>
+
+
       </div>
     </div>
   </section>

@@ -184,6 +184,29 @@
           </div>
         </div>
       </div>
+      <div class="review__slider">
+        <Splide :options="{
+          type: 'slide',
+          padding: '1rem', snap: true,
+          breakpoints: { 1170: { perPage: 2 }, 850: { perPage: 1 }, },
+          gap: '-30px',
+        }">
+          <SplideSlide v-for="review in reviews" :key="review.image">
+            <div class="review">
+              <div class="review__image">
+                <figure>
+                  <img :src="review.image" alt="" />
+                </figure>
+              </div>
+
+              <div class="review__text">
+                <p class="review__description">{{ review.description }}</p>
+                <p class="review__author">{{ review.author }}</p>
+              </div>
+            </div>
+          </SplideSlide>
+        </Splide>
+      </div>
     </section>
 
     <!-- Call to Action Section-->
@@ -203,7 +226,29 @@
 </template>
 
 <script lang="ts" setup>
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
+import '@splidejs/vue-splide/css';
+import review01 from '~/assets/images/review-01.png';
+import review02 from '~/assets/images/review-02.png';
+import review03 from '~/assets/images/review-03.png';
 
+const reviews = [
+  {
+    image: review01,
+    description: 'Power Mindz gave us a calmer house after years of suffering ',
+    author: 'Chris H.'
+  },
+  {
+    image: review02,
+    description: 'My daughter has focus and purpose at school again.',
+    author: 'Sarah M.'
+  },
+  {
+    image: review03,
+    description: 'Our 10 year old is finally sleeping at friend\'s house\'s and her social life is thriving!',
+    author: 'John D.'
+  }
+]
 </script>
 
 <style></style>

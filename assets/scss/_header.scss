@@ -2,7 +2,7 @@
     max-width: 1200px;
     margin: 0 auto;
 
-    @include bp(mobile) {
+    @include bp(small) {
         padding: 0 16px;
     }
 
@@ -18,11 +18,19 @@
     justify-content: center;
     height: 37px;
 
+    @include bp(small) {
+        height: 28px;
+    }
+
     .banner-text {
         color: $TextSecondaryColor;
         font-size: 14px;
         font-weight: 700;
         line-height: 20px;
+
+        @include bp(small) {
+            font-weight: 500;
+        }
     }
 }
 
@@ -31,8 +39,8 @@
     background: #FFF;
     border-bottom: 1px solid #EDEDED;
 
-    @include bp(mobile) {
-        height: 100px;
+    @include bp(small) {
+        height: 64px;
         // margin-bottom: 10px;
     }
 
@@ -45,6 +53,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @include bp(small) {
+            height: 32px;
+        }
     }
 
     .header-row {
@@ -54,13 +66,14 @@
         justify-content: space-between;
         height: 88px;
 
-        
+
         @include bp(tablet) {
-            justify-content: flex-end;
+            justify-content: space-between;
         }
 
-        @include bp(mobile) {
-            justify-content: flex-end;
+        @include bp(small) {
+            justify-content: space-between;
+            height: 64px;
         }
     }
 
@@ -71,6 +84,13 @@
 
         .button {
             height: 48px;
+
+            @include bp(small) {
+                height: 36px;
+                font-size: 14px;
+                padding: 9px 12px;
+                line-height: 18px;
+            }
         }
     }
 
