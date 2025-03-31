@@ -16,7 +16,7 @@ COPY --from=builder /app/.output/public /usr/share/nginx/html
 
 COPY conf/stage/nginx.conf /etc/nginx/nginx.conf
 
-COPY conf/stage/.auth /etc/nginx/.auth
+# COPY conf/stage/.auth /etc/nginx/.auth
 
 RUN apk add --no-cache nodejs npm
 
