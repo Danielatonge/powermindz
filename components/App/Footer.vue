@@ -1,44 +1,60 @@
 <template>
   <!--------- Footer Start --------->
-  <footer class="footer">
-    <div class="footer__container">
-      <figure>
-        <img src="~/assets/images/powermindz-logo-light.png" alt="PowerMindz Logo" />
-      </figure>
-      <h4>Join the PowerMindz Community</h4>
-      <p class="footer-subtitle">Find out how PowerMindz is helping thousands of people across the world.</p>
+  <div class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__body">
 
-      <div class="social-links">
-        <a href="#">
-          <img src="~/assets/images/facebook.png" alt="Facebook" />
-        </a>
-        <a href="#">
-          <img src="~/assets/images/x.png" alt="Twitter" />
-        </a>
-        <a href="#">
-          <img src="~/assets/images/instagram.png" alt="Instagram" />
-        </a>
-        <a href="#">
-          <img src="~/assets/images/linkedin.png" alt="Youtube" />
-        </a>
+          <div class="footer__content">
+            <figure>
+              <img src="~/assets/images/powermindz-logo-light.png" alt="PowerMindz Logo" />
+            </figure>
+            <p class="footer-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare cursus sed
+              nunc eget dictum Sed ornare cursus sed nunc eget dictumd nunc eget dictum Sed ornare cursus sed nunc eget
+              dictum </p>
+
+            <div class="social-links">
+              <a href="#">
+                <img src="~/assets/images/instagram.png" alt="Instagram" />
+              </a>
+              <a href="#">
+                <img src="~/assets/images/facebook.png" alt="Facebook" />
+              </a>
+              <a href="#">
+                <img src="~/assets/images/x.png" alt="Twitter" />
+              </a>
+              <a href="#">
+                <img src="~/assets/images/linkedin.png" alt="Youtube" />
+              </a>
+            </div>
+
+          </div>
+
+          <div class="footer-nav">
+            <a href="#">About</a>
+            <a href="#">Shop</a>
+            <a href="#">Learn</a>
+            <a href="#">Cart</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="copyright">
+            <p> PowerMindz is a registered trademark of PowerMindz, Inc.
+              &copy; {{ currentYear }} PowerMindz, Inc.
+            </p>
+          </div>
+          <div class="footer-bottom-nav">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Accessibility</a>
+          </div>
+        </div>
       </div>
 
-      <div class="footer-nav">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Return Policy</a>
-        <a href="#">Terms of Sale</a>
-        <a href="#">Terms of Use</a>
-        <a href="#">Shipping</a>
-      </div>
 
-      <div class="copyright">
-        <p>
-          &copy; Copyright
-          {{ currentYear }} , by BioSelf Technology Ltd.
-        </p>
-      </div>
     </div>
-  </footer>
+  </div>
   <!--------- Footer End--------->
 </template>
 

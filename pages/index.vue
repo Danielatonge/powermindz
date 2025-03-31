@@ -164,7 +164,7 @@
                 <div class="review__text">
                   <p class="review__description">My daughter has focus and purpose at school again.
                   </p>
-                  <p class="review__author">Chris H.</p>
+                  <p class="review__author">Sarah M.</p>
                 </div>
               </div>
               <div class="review">
@@ -177,7 +177,7 @@
                 <div class="review__text">
                   <p class="review__description">Our 10 year old is finally sleeping at friend's house’s and her social
                     life is thriving! </p>
-                  <p class="review__author">Chris H.</p>
+                  <p class="review__author">John D.</p>
                 </div>
               </div>
             </div>
