@@ -11,8 +11,4 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts'
   ],
-  nitro: {
-    minify: true,
-    preset: 'node'
-  }
 })
