@@ -1,0 +1,249 @@
+.hero__section {
+    background: url('~/assets/images/hero-bg-desktop.png') no-repeat center center;
+    background-size: cover;
+    height: 560px;
+
+    @include bp(small) {
+        padding: 0px 0 48px;
+        background: url('~/assets/images/hero-bg-mobile.png') no-repeat center center;
+    }
+
+
+    .hero__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 52px;
+        position: relative;
+        height: 560px;
+
+        @include bp(xlarge) {
+            gap: 32px;
+        }
+
+        @include bp(small) {
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        @include bp(medium) {
+            flex-direction: column-reverse;
+            gap: 12px;
+        }
+
+        .hero__image {
+            img {
+                width: 548px;
+                position: absolute;
+                right: -120px;
+                top: 20px;
+
+                @include bp(small) {
+                    height: auto;
+                    width: 100%;
+                }
+
+                @include bp(medium) {
+                    width: 388px;
+                }
+            }
+        }
+
+        .hero__body {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 730px;
+
+
+            @include bp(xlarge) {
+                max-width: 704px;
+            }
+
+            @include bp(small) {
+                gap: 12.5px;
+                max-width: 100%;
+            }
+
+            @include bp(medium) {
+                max-width: 100%;
+            }
+
+            .hero__tag {
+                display: flex;
+                align-items: center;
+                gap: 7px;
+
+                img {
+                    width: 100px;
+                }
+
+                span {
+                    font-family: 'DMSans', sans-serif;
+                    color: $TextSecondaryColor;
+                    font-size: 16px;
+                    font-weight: 400;
+                    // line-height: 35px;
+
+                    @include bp(small) {
+                        font-size: 14px;
+                        padding: 0;
+                        margin: 0;
+                        line-height: 0px;
+                    }
+                }
+
+                @include bp(small) {
+                    gap: 4px;
+                    justify-content: center;
+                }
+            }
+
+            .hero__title {
+
+                h2 {
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 124%;
+                    color: $TextSecondaryColor;
+                    width: 100%;
+
+                    @include bp(medium) {
+                        width: 100%;
+                    }
+
+                    @include bp(small) {
+                        width: 100%;
+                        font-size: 32px;
+                        line-height: 34px;
+                        text-align: center;
+                    }
+
+                    span {
+                        font-size: 56px;
+                        font-weight: 900;
+                        line-height: 124%;
+                        color: $PrimaryColor;
+                    }
+                }
+            }
+
+            .hero__description {
+                p {
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: $TextSecondaryColor;
+
+                    @include bp(small) {
+                        font-size: 13px;
+                        line-height: 22px;
+                    }
+                }
+            }
+
+
+
+
+            .benefits {
+                display: flex;
+                gap: 16px;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                @include bp(small) {
+                    gap: 6px;
+                    justify-content: center;
+                }
+
+                .benefit {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+
+                    p {
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        color: $TextSecondaryColor;
+
+                        @include bp(small) {
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+
+                        span {
+                            font-weight: 600;
+                        }
+                    }
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+
+                        @include bp(small) {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
+
+            .hero__action {
+                p {
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    margin-bottom: 8px;
+
+                    @include bp(small) {
+                        margin-bottom: 4px;
+                    }
+                }
+
+                .button {
+                    width: 100%;
+                    font-size: 24px;
+                    font-weight: 700;
+                    padding: 16px 0;
+
+                }
+
+                .action-wrapper {
+                    display: flex;
+                    gap: 16px;
+                    margin-bottom: 8px;
+
+                    @include bp(small) {
+                        flex-direction: column;
+                        gap: 8px;
+                    }
+                }
+
+                .email-input {
+                    width: 320px;
+                    border: 1px solid #E0E0E0;
+                    border-radius: 4px;
+                    padding: 12px 16px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: #333333;
+
+                    @include bp(small) {
+                        width: 100%;
+                    }
+                }
+
+                .form-errors {
+                    color: #D94260;
+                    display: none;
+                }
+            }
+
+        }
+    }
+}

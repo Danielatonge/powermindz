@@ -1,0 +1,27 @@
+@import "./colors";
+@import "./mixins";
+
+.button {
+    font-family: 'DMSans', sans-serif;
+    border: none;
+    text-decoration: none;
+    background: $PrimaryColor;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: $TextPrimaryColor;
+    border-radius: 4px;
+    display: inline-block;
+    width: fit-content;
+    cursor: pointer;
+    position: relative;
+    padding: 14px 50px;
+
+    @include bp(small) {
+        width: 100%;
+        height: 50px;
+    }
+
+}

@@ -1,0 +1,15 @@
+@import './mixins';
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 100px;
+    position: relative;
+
+    @include bp(small) {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+}

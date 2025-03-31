@@ -1,0 +1,136 @@
+.footer {
+    display: flex;
+    width: 100%;
+    // height: 120px;
+    padding: 41px 96px 47px 96px;
+    justify-content: center;
+    align-items: center;
+    background: $SecondaryColor;
+
+    @include bp(small) {
+        width: 100%;
+        padding: 24px 16px;
+    }
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+
+    @include bp(medium) {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    @include bp(small) {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    img {
+        height: 40px;
+
+        @include bp(small) {
+            height: 40px;
+        }
+    }
+
+    h4 {
+        color: $TextSecondaryColor;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+
+    .footer-subtitle {
+        color: $TextSecondaryColor;
+
+        @include bp(small) {
+            font-size: 16px;
+            line-height: 23px;
+            text-align: center;
+        }
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+
+        @include bp(small) {}
+
+        a {
+            color: var(--White, var(--Colors-Neutral-White, #FFF));
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+            text-decoration-line: underline;
+            cursor: pointer;
+
+            @include bp(small) {
+                font-size: 14px;
+                line-height: 19px;
+            }
+
+            img {
+                cursor: pointer;
+                width: 100%;
+            }
+        }
+    }
+
+    .copyright {
+        display: flex;
+        gap: 16px;
+
+        p {
+            color: $TextSecondaryColor;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+
+            @include bp(small) {
+                font-size: 12px;
+                line-height: 16px;
+            }
+        }
+    }
+
+    .social-links {
+        display: flex;
+        gap: 12px;
+
+        a {
+            background-color: #FDFDFD;
+            border-radius: 50%;
+            cursor: pointer;
+            width: 41px;
+            height: 41px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0px;
+            margin: 0px;
+
+            @include bp(small) {
+                width: 39px;
+                height: 39px;
+            }
+
+            img {
+                width: auto;
+                height: 17px;
+
+                @include bp(small) {
+                    height: 16px;
+                }
+            }
+        }
+    }
+}

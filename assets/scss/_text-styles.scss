@@ -1,0 +1,94 @@
+@import "./colors";
+@import "./mixins";
+
+a {
+    font-family: 'DMSans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: $PrimaryColor;
+}
+
+p {
+    font-family: 'DMSans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: $TextPrimaryColor;
+
+    @include bp(small) {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+h1 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 64px;
+    line-height: 80px;
+    color: $TextPrimaryColor;
+
+    @include bp(small) {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+h2 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 60px;
+    line-height: 64px;
+    color: $TextPrimaryColor;
+
+    @include bp(small) {
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+
+h3 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    color: $TextPrimaryColor;
+
+    @include bp(small) {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: $TextPrimaryColor;
+
+    @include bp(small) {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: $TextPrimaryColor;
+
+    @include bp(small) {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: $TextPrimaryColor;
+
+    @include bp(small) {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

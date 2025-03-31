@@ -1,0 +1,163 @@
+.expectation__section {
+    padding: 80px 0;
+
+    @include bp(small) {
+        padding: 40px 0;
+    }
+
+    .expectation__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .expectation__image {
+
+            img {
+                height: 556px;
+                object-fit: cover;
+            }
+        }
+
+        .expectation__content-wrapper {
+            width: 55%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 24px;
+            background-color: #F5F6F6;
+            border: 3px solid #E0E0E0;
+            border-radius: 12px;
+            position: relative;
+            padding: 33px 24px;
+            padding-left: 62px;
+
+            .expectation-timeline {
+                width: 3px;
+                height: 400px;
+                background-color: #E0E0E0;
+                border-radius: 10px;
+                position: absolute;
+                top: 76px;
+                left: 28px;
+            }
+
+            .expectation__content {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                gap: 40px;
+
+                .expectation {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    gap: 4px;
+                    position: relative;
+
+                    &::before {
+                        content: '';
+                        width: 14px;
+                        height: 14px;
+                        background-color: $SecondaryColor;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 40px;
+                        left: -39px;
+                    }
+
+                    .expectation__duration {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: $SecondaryColor;
+                    }
+
+                    .expectation__title {
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+
+                    .expectation__description {
+                        font-size: 14px;
+                        font-weight: 300;
+                    }
+                }
+            }
+
+
+        }
+
+
+    }
+}
+
+
+.result__section {
+    padding: 80px 0;
+
+    @include bp(small) {
+        padding: 40px 0;
+    }
+
+    .result__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .result__image {
+
+            img {
+                height: 375px;
+                object-fit: cover;
+            }
+        }
+
+
+
+        .result__content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-start;
+            gap: 60px;
+            width: 500px;
+            position: relative;
+
+            &::after {
+                content: '';
+                width: 2px;
+                height: 300px;
+                background-color: #C0C0C0;
+                position: absolute;
+                top: -66px;
+                right: -40px;
+                z-index: -1;
+            }
+
+            h3 {
+                font-size: 200px;
+                font-family: 'DMSans', sans-serif;
+                font-weight: 400;
+                text-align: right;
+                color: $SecondaryColor;
+
+                span {
+                    font-size: 100px;
+                }
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: 400;
+                text-align: right;
+            }
+
+
+
+        }
+
+
+    }
+}

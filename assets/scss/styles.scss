@@ -1,0 +1,82 @@
+@import "./reset";
+@import "./colors";
+@import "./mixins";
+@import "./fonts";
+@import "./text-styles";
+@import "./input";
+@import "./button";
+@import "./logo";
+@import "./container";
+@import "./footer";
+@import "./header";
+
+
+
+@import "./section/hero";
+@import "./section/choice";
+@import "./section/cta";
+@import "./section/review";
+@import "./section/expectation";
+
+body,
+input,
+textarea,
+button {
+    font-family: 'DMSans', sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html:has(.modal-overlay--open),
+body:has(.modal-overlay--open) {
+    margin: 0;
+    height: 100%;
+    overflow: hidden !important;
+}
+
+.hide-ss {
+    @include bp(mobile) {
+        display: none;
+    }
+
+    @include bp(tablet) {
+        display: none;
+    }
+}
+
+.hide-bs-tab {
+    display: none !important;
+
+    @include bp(mobile) {
+        display: block !important;
+    }
+}
+
+.hide-bs {
+    display: none !important;
+
+    @include bp(mobile) {
+        display: block !important;
+    }
+
+    @include bp(tablet) {
+        display: block !important;
+    }
+}
+
+.hide {
+    display: none !important;
+}
+
+.hide-ss-only {
+    @include bp(mobile) {
+        display: none !important;
+    }
+}

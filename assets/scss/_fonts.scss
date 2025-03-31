@@ -1,0 +1,345 @@
+/**
+* load up DMSans font
+**/
+
+@font-face {
+    font-display: swap;
+    font-family: 'DMSans';
+    src: url('/fonts/DMSans-Bold.ttf');
+    src: local('DMSans Bold'),
+        local('DMSans-Bold'),
+        url('/fonts/DMSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DMSans';
+    src: url('/fonts/DMSans-BoldItalic.ttf');
+    src: local('DMSans Bold Italic'),
+        local('DMSans-BoldItalic'),
+        url('/fonts/DMSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DMSans';
+    src: url('/fonts/DMSans-SemiBold.ttf');
+    src: local('DMSans Bold'),
+        local('DMSans-Bold'),
+        url('/fonts/DMSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DMSans';
+    src: url('/fonts/DMSans-SemiBoldItalic.ttf');
+    src: local('DMSans Bold Italic'),
+        local('DMSans-BoldItalic'),
+        url('/fonts/DMSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DMSans';
+    src: url('/fonts/DMSans-Medium.ttf');
+    src: local('DMSans Medium'),
+        local('DMSans-Medium'),
+        url('/fonts/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DMSans';
+    src: url('/fonts/DMSans-MediumItalic.ttf');
+    src: local('DMSans Medium Italic'),
+        local('DMSans-MediumItalic'),
+        url('/fonts/DMSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DMSans';
+    src: url('/fonts/DMSans-Italic.ttf');
+    src: local('DMSans Italic'),
+        local('DMSans-Italic'),
+        url('/fonts/DMSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DMSans';
+    src: url('/fonts/DMSans-Regular.ttf');
+    src: local('DMSans Regular'),
+        local('DMSans-Regular'),
+        url('/fonts/DMSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DMSans';
+    src: url('/fonts/DMSans-LightItalic.ttf');
+    src: local('DMSans Light Italic'),
+        local('DMSans-LightItalic'),
+        url('/fonts/DMSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DMSans';
+    src: url('/fonts/DMSans-Light.ttf');
+    src: local('DMSans Light'),
+        local('DMSans-Light'),
+        url('/fonts/DMSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+/***
+* load up Poppins font
+***/
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Black.ttf');
+    src: local('Poppins Black'),
+        local('Poppins-Black'),
+        url('/fonts/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-BlackItalic.ttf');
+    src: local('Poppins Black Italic'),
+        local('Poppins-BlackItalic'),
+        url('/fonts/Poppins-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Bold.ttf');
+    src: local('Poppins Bold'),
+        local('Poppins-Bold'),
+        url('/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-BoldItalic.ttf');
+    src: local('Poppins Bold Italic'),
+        local('Poppins-BoldItalic'),
+        url('/fonts/Poppins-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-SemiBold.ttf');
+    src: local('Poppins Bold'),
+        local('Poppins-Bold'),
+        url('/fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-SemiBoldItalic.ttf');
+    src: local('Poppins Bold Italic'),
+        local('Poppins-BoldItalic'),
+        url('/fonts/Poppins-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Medium.ttf');
+    src: local('Poppins Medium'),
+        local('Poppins-Medium'),
+        url('/fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-MediumItalic.ttf');
+    src: local('Poppins Medium Italic'),
+        local('Poppins-MediumItalic'),
+        url('/fonts/Poppins-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Italic.ttf');
+    src: local('Poppins Italic'),
+        local('Poppins-Italic'),
+        url('/fonts/Poppins-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Regular.ttf');
+    src: local('Poppins Regular'),
+        local('Poppins-Regular'),
+        url('/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/***
+* load up Lexend font
+***/
+
+@font-face {
+    font-display: swap;
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-Black.ttf');
+    src: local('Lexend Black'),
+        local('Lexend-Black'),
+        url('/fonts/Lexend-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-BlackItalic.ttf');
+    src: local('Lexend Black Italic'),
+        local('Lexend-BlackItalic'),
+        url('/fonts/Lexend-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-Bold.ttf');
+    src: local('Lexend Bold'),
+        local('Lexend-Bold'),
+        url('/fonts/Lexend-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-BoldItalic.ttf');
+    src: local('Lexend Bold Italic'),
+        local('Lexend-BoldItalic'),
+        url('/fonts/Lexend-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-SemiBold.ttf');
+    src: local('Lexend Bold'),
+        local('Lexend-Bold'),
+        url('/fonts/Lexend-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-SemiBoldItalic.ttf');
+    src: local('Lexend Bold Italic'),
+        local('Lexend-BoldItalic'),
+        url('/fonts/Lexend-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-Medium.ttf');
+    src: local('Lexend Medium'),
+        local('Lexend-Medium'),
+        url('/fonts/Lexend-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-MediumItalic.ttf');
+    src: local('Lexend Medium Italic'),
+        local('Lexend-MediumItalic'),
+        url('/fonts/Lexend-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-Italic.ttf');
+    src: local('Lexend Italic'),
+        local('Lexend-Italic'),
+        url('/fonts/Lexend-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-Regular.ttf');
+    src: local('Lexend Regular'),
+        local('Lexend-Regular'),
+        url('/fonts/Lexend-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

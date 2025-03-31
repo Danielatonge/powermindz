@@ -1,0 +1,77 @@
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @include bp(mobile) {
+        padding: 0 16px;
+    }
+
+    @include bp(tablet) {
+        padding: 0 32px;
+    }
+}
+
+.banner {
+    background-color: $TertiaryColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+
+    .banner-text {
+        color: $TextSecondaryColor;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+}
+
+.header {
+    margin-bottom: 0px;
+    background: #FFF;
+    border-bottom: 1px solid #EDEDED;
+
+    @include bp(mobile) {
+        height: 100px;
+        // margin-bottom: 10px;
+    }
+
+    @include bp(tablet) {
+        // margin-bottom: 22px;
+    }
+
+    .powermindz-logo {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-row {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 88px;
+
+        
+        @include bp(tablet) {
+            justify-content: flex-end;
+        }
+
+        @include bp(mobile) {
+            justify-content: flex-end;
+        }
+    }
+
+    .header-action {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .button {
+            height: 48px;
+        }
+    }
+
+}

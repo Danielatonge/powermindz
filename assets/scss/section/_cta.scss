@@ -1,0 +1,126 @@
+.cta__section {
+    padding: 80px 0;
+
+    @include bp(small) {
+        padding: 40px 0;
+    }
+
+    .cta__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: url('~/assets/images/powermindz-cta.png') no-repeat center center;
+        background-size: cover;
+        height: 350px;
+        border-radius: 4px;
+
+        @include bp(small) {
+            grid-area: 32px;
+        }
+
+        .cta__title {
+            h3 {
+                text-align: left;
+                font-family: 'Lexend', sans-serif;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 48px;
+
+                @include bp(small) {
+                    font-size: 32px;
+                    line-height: 42px;
+                    text-align: left;
+                }
+            }
+        }
+
+        .content__title {
+            width: 100%;
+
+            h3 {
+                text-align: center;
+                font-family: 'Lexend', sans-serif;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 48px;
+
+                @include bp(small) {
+                    font-size: 32px;
+                    line-height: 42px;
+                    text-align: left;
+                }
+            }
+        }
+
+        .cta__subtitle {
+            max-width: 930px;
+            text-align: left;
+
+            @include bp(small) {
+                width: 100%;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 24px;
+
+                @include bp(small) {
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+
+                span {
+                    font-weight: 700;
+                }
+            }
+
+        }
+
+        .cta__body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            width: 520px;
+
+
+            @include bp(small) {
+                width: 100%;
+            }
+
+            .button {
+                width: 100%;
+            }
+
+            .cta__subtitle {
+                color: $TextSecondaryColor;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+            }
+
+            .cta__title {
+                color: $TextSecondaryColor;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 46px;
+            }
+
+            .cta__description {
+                color: $TextSecondaryColor;
+                font-style: italic;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 24px;
+
+                span {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
