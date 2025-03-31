@@ -10,5 +10,9 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/scripts'
-  ]
+  ],
+  nitro: {
+    minify: true,
+    preset: 'node'
+  }
 })
