@@ -50,9 +50,8 @@
             <a href="#">Accessibility</a>
           </div>
         </div>
+        
       </div>
-
-
     </div>
   </div>
   <!--------- Footer End--------->
